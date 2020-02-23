@@ -721,39 +721,33 @@ export default {
         }
       ],
       schedule: [
+        // {
+        //   name: 'Spring 2019 Schedule',
+        //   id: '2019sp',
+        //   courses: [
+        //     { 
+        //       class: 'CAD-220-60',
+        //       title: 'Introduction to CAD/CAM Systems',
+        //       days: 'Mondays, Wednesdays',
+        //       times: 'Evenings'
+        //     },
+        //     { 
+        //       class: 'CAD-222-60',
+        //       title: 'CAD Mechanical Design I',
+        //       days: 'Tuesdays, Thursdays',
+        //       times: 'Evenings'
+        //     },
+        //     { 
+        //       class: 'CAD-295E-01',
+        //       title: '3D Modeling using Maya',
+        //       days: 'Tuesdays, Thursdays',
+        //       times: 'Afternoons'
+        //     },
+        //   ]
+        // },
         {
-          name: 'Spring 2019 Schedule',
-          id: '2019sp',
-          courses: [
-            { 
-              class: 'CAD-220-60',
-              title: 'Introduction to CAD/CAM Systems',
-              days: 'Mondays, Wednesdays',
-              times: 'Evenings'
-            },
-            { 
-              class: 'CAD-222-60',
-              title: 'CAD Mechanical Design I',
-              days: 'Tuesdays, Thursdays',
-              times: 'Evenings'
-            },
-            { 
-              class: 'CAD-224-60',
-              title: 'CAD Mechanical Design II',
-              days: 'Tuesdays, Thursdays',
-              times: 'Evenings'
-            },
-            { 
-              class: 'CAD-295E-01',
-              title: '3D Modeling using Maya',
-              days: 'Tuesdays, Thursdays',
-              times: 'Afternoons'
-            },
-          ]
-        },
-        {
-          name: 'Fall 2019 Proposed Schedule',
-          id: '2020fa',
+          name: 'Fall 2019 Schedule',
+          id: '2019fa',
           courses: [
             { 
               class: 'CAD-220-60',
@@ -762,27 +756,27 @@ export default {
               times: 'Evenings'
             },
             {
-              class: 'CAD-222-60',
-              title: 'CAD Mechanical Design I',
-              days: 'Tuesdays, Thursdays',
+              class: 'CAD-223-60',
+              title: 'CAD Detailing and Dimensioning',
+              days: 'Mondays, Wednesdays',
               times: 'Evenings'
             },
             {
               class: 'CAD-230-60',
               title: 'Introduction to SolidWorks',
-              days: 'Mondays, Wednesdays',
+              days: 'Tuesdays, Thursdays',
               times: 'Evenings'
             },
             {
-              class: 'CAD-295E-01/CAD-273-01',
-              title: '3D Modeling using Maya',
+              class: 'CAD-274-01',
+              title: '3D Animation using Maya',
               days: 'Mondays, Wednesdays',
               times: 'Mornings'
             },
           ]
         },
         {
-          name: 'Spring 2020 Proposed Schedule',
+          name: 'Spring 2020 Schedule',
           id: '2020sp',
           courses: [
             { 
@@ -792,25 +786,66 @@ export default {
               times: 'Evenings'
             },
             {
-              class: 'CAD-222-60',
-              title: 'CAD Mechanical Design I',
+              class: 'CAD-224-60',
+              title: 'CAD Mechanical Design II',
               days: 'Tuesdays, Thursdays',
               times: 'Evenings'
             },
             {
-              class: 'CAD-223-60',
-              title: 'CAD Detailing and Dimensioning',
-              days: 'TBD',
-              times: 'Evenings'
-            },
-            {
-              class: 'CAD-274-01',
-              title: '3D Animation Using Maya',
+              class: 'CAD-273-01',
+              title: '3D Modeling Using Maya',
               days: 'Tuesdays, Thursdays',
               times: 'Afternoons'
             },
           ]
         },
+        // {
+        //   name: 'Summer 2020 Proposed Schedule @ HEC San Ysidro',
+        //   id: '2020su',
+        //   courses: [
+        //     { 
+        //       class: 'CAD-220-60',
+        //       title: 'Introduction to CAD/CAM Systems',
+        //       days: 'Tuesdays, Wednesdays, Thursdays',
+        //       times: 'Evenings',
+        //       location: 'HEC San Ysidro',
+        //     },
+        //   ]
+        // },
+        {
+          name: 'Fall 2020 Proposed Schedule',
+          id: '2020fa',
+          courses: [
+            { 
+              class: 'CAD-220-60',
+              title: 'Introduction to CAD/CAM Systems',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-222-60',
+              title: 'CAD Mechanical Design I',
+              days: 'Tuesdays, Thursdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-230-60',
+              title: 'Introduction to SolidWorks',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-106 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-273-01',
+              title: '3D Modeling Using Maya',
+              days: 'Mondays, Wednesdays',
+              times: 'Mornings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+          ]
+        },        
       ],
     }
   },
