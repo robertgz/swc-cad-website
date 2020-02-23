@@ -799,19 +799,19 @@ export default {
             },
           ]
         },
-        // {
-        //   name: 'Summer 2020 Proposed Schedule @ HEC San Ysidro',
-        //   id: '2020su',
-        //   courses: [
-        //     { 
-        //       class: 'CAD-220-60',
-        //       title: 'Introduction to CAD/CAM Systems',
-        //       days: 'Tuesdays, Wednesdays, Thursdays',
-        //       times: 'Evenings',
-        //       location: 'HEC San Ysidro',
-        //     },
-        //   ]
-        // },
+        {
+          name: 'Summer 2020 Schedule @ HEC San Ysidro',
+          id: '2020su',
+          courses: [
+            { 
+              class: 'CAD-220-60',
+              title: 'Introduction to CAD/CAM Systems',
+              days: 'Tuesdays, Wednesdays, Thursdays',
+              times: 'Evenings',
+              location: 'HEC San Ysidro',
+            },
+          ]
+        },
         {
           name: 'Fall 2020 Proposed Schedule',
           id: '2020fa',
