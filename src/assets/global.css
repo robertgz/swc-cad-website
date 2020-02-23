@@ -1,0 +1,191 @@
+body {
+  position: relative;
+}
+
+.cad-navbar {
+  background-color: #efb20f;  
+}
+
+.nav.navbar-nav li a {  
+    color: #AB0534;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #efb20f;
+  background: #AB0534;
+}
+
+.brand-program {
+  display: none;
+}
+
+.cad-top-banner{
+  margin-top: 50px;
+}
+
+.learn-col {
+  padding: 0px 0px 10px 0px;
+  background-color: black;
+  color: white;
+}
+.banner-part4 {
+  display: none;
+}
+.cad-topics-col {
+  padding: 5px 10px 0px 10px;
+  background-color: #AB0534;
+}
+.cad-topics>li {
+  padding: 10px 20px 10px 20px;
+  color: #efb20f;
+}
+
+.courses-heading {
+  padding-bottom: 25px;
+  color: #AB0534;
+}
+
+.course-row {
+  margin-bottom: 40px;
+}
+
+.course-information  {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.course-overview {
+  padding-left: 20px;
+}
+
+.course-number {
+  color: #AB0534;
+}
+.course-br {
+      display: block;
+}
+
+.cad-course-description-btn,
+.cad-course-description-btn:focus{
+  color: #AB0534;
+  background: #efb20f;
+}
+.cad-course-description-btn:hover {
+  color: #efb20f;
+  background: #AB0534;
+}
+.cad-course-description-btn:focus {
+  border-radius:0;
+  box-shadow: inset 0 0 .5em  #AB0534;
+}
+
+.cad-course-description {
+  background: rgb(230,230,230);
+}
+
+
+.cad-courses-section, .cad-certificates-section,
+.cad-revised-courses-section, .cad-new-courses-section{
+  background-color: rgb(245,245,245);
+}
+
+.courses-heading>h2, 
+.courses-heading h2, 
+.revised-courses-heading>h2,
+.new-courses-heading>h2,
+.cad-degrees-heading-row>h2, 
+.cad-certificates-heading-row>h2,
+.schedule-heading h2,
+.schedule-heading>h2 {
+  color: #AB0534;
+}
+
+.cad-courses-section, .cad-degrees-section, .cad-certificates-section, .cad-schedule-section{
+  padding: 50px 30px 20px 50px;
+}
+
+.cad-degrees-row, .cad-certificates-row {
+  padding-left: 50px;
+}
+
+.cad-degrees-row>dl, .cad-certificates-row>dl {
+  padding-left: 30px;
+}
+
+.course-title-cr {
+  display: none;
+}
+.left-margin-course-or { 
+  padding-left: 20px;
+}
+
+.southwestern-college-footer {
+  padding: 30px;
+  background-color: #efb20f;
+}
+
+
+@media (min-width: 400px) {
+  .learn-br, .course-num-br {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .course-br {
+      display: none;
+  }
+  .brand-program {
+    display: inline;
+  }
+  .course-title-cr {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-part2 {
+    display: none;
+  }
+  .banner-part4{
+    display: block;
+  } 
+  
+  .course-information  {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 20px;
+  }
+  .course-br {
+    display: block;
+  }
+  
+  .cad-learn-topics-row {
+    display: table;
+  }
+
+  .learn-col, .cad-topics-col {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+  .learn-col {
+    padding-top: 30px;
+  }
+  .learn-heading {
+    font-size: 3em;    
+  }
+}
+
+@media (min-width: 1200px) {
+   .learn-col {
+    padding-top: 30px;
+  }
+  .learn-heading {
+    font-size: 3em;    
+  } 
+}
