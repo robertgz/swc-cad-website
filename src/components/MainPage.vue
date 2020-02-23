@@ -221,7 +221,7 @@
     <div class="container cad-revised-courses-section" id="revised-courses">
       <div class="row text-center">
         <div class="col-xs-12 revised-courses-heading">
-          <h2 role="main">CAD Courses being revised</h2>
+          <h2 role="main">Revised CAD Courses</h2>
         </div>
       </div>
 
