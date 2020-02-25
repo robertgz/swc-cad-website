@@ -804,11 +804,11 @@ export default {
           id: '2020su',
           courses: [
             { 
-              class: 'CAD-220-60',
+              class: 'CAD-220-86',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Tuesdays, Wednesdays, Thursdays',
               times: 'Evenings',
-              location: 'HEC San Ysidro',
+              location: 'Room 5201 at HEC San Ysidro',
             },
           ]
         },
