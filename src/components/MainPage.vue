@@ -725,19 +725,19 @@ export default {
         //   name: 'Spring 2019 Schedule',
         //   id: '2019sp',
         //   courses: [
-        //     { 
+        //     {
         //       class: 'CAD-220-60',
         //       title: 'Introduction to CAD/CAM Systems',
         //       days: 'Mondays, Wednesdays',
         //       times: 'Evenings'
         //     },
-        //     { 
+        //     {
         //       class: 'CAD-222-60',
         //       title: 'CAD Mechanical Design I',
         //       days: 'Tuesdays, Thursdays',
         //       times: 'Evenings'
         //     },
-        //     { 
+        //     {
         //       class: 'CAD-295E-01',
         //       title: '3D Modeling using Maya',
         //       days: 'Tuesdays, Thursdays',
@@ -749,7 +749,7 @@ export default {
           name: 'Fall 2019 Schedule',
           id: '2019fa',
           courses: [
-            { 
+            {
               class: 'CAD-220-60',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Mondays, Wednesdays',
@@ -779,7 +779,7 @@ export default {
           name: 'Spring 2020 Schedule',
           id: '2020sp',
           courses: [
-            { 
+            {
               class: 'CAD-220-60',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Mondays, Wednesdays',
@@ -803,7 +803,7 @@ export default {
           name: 'Summer 2020 Schedule @ HEC San Ysidro',
           id: '2020su',
           courses: [
-            { 
+            {
               class: 'CAD-220-86',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Tuesdays, Wednesdays, Thursdays',
@@ -816,7 +816,7 @@ export default {
           name: 'Fall 2020 Proposed Schedule (Final Proto)',
           id: '2020fa',
           courses: [
-            { 
+            {
               class: 'CAD-220-60',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Mondays, Wednesdays',
@@ -850,7 +850,7 @@ export default {
           name: 'Spring 2021 Proposed Schedule (Phase I Proto)',
           id: '2021sp',
           courses: [
-            { 
+            {
               class: 'CAD-220-60',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Mondays, Wednesdays',
@@ -863,41 +863,41 @@ export default {
               days: 'Tuesdays, Thursdays',
               times: 'Evenings',
               location: 'Room 38-109 at Chula Vista campus',
-            },            
+            },
             {
               class: 'CAD-223-60',
               title: 'CAD Detailing and Dimensioning',
               days: 'Mondays, Wednesdays',
               times: 'Evenings',
               location: 'Room 38-106 at Chula Vista campus',
-            },            
+            },
             {
               class: 'CAD-274-01',
               title: '3D Animation using Maya',
               days: 'Tuesdays, Thursdays',
               times: 'Afternoons',
               location: 'Room 38-109 at Chula Vista campus',
-            },            
+            },
           ]
         },
         {
           name: 'Fall 2021 Proposed Schedule (Phase 0)',
           id: '2021fa',
           courses: [
-            { 
+            {
               class: 'CAD-220-60',
               title: 'Introduction to CAD/CAM Systems',
               days: 'Mondays, Wednesdays',
               times: 'Evenings',
               location: 'Room 38-109 at Chula Vista campus',
-            }, 
+            },
             {
               class: 'CAD-224-60',
               title: 'CAD Mechanical Design II',
               days: 'Tuesdays, Thursdays',
               times: 'Evenings',
               location: 'Room 38-109 at Chula Vista campus',
-            },            
+            },
             {
               class: 'CAD-230-60',
               title: 'Introduction to SolidWorks',
@@ -911,7 +911,76 @@ export default {
               days: 'Mondays, Wednesdays',
               times: 'Mornings',
               location: 'Room 38-109 at Chula Vista campus',
-            },                   
+            },
+          ]
+        },
+
+        {
+          name: 'Spring 2022 Proposed Schedule (Phase 0)',
+          id: '2022sp',
+          courses: [
+            {
+              class: 'CAD-220-60',
+              title: 'Introduction to CAD/CAM Systems',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-222-60',
+              title: 'CAD Mechanical Design I',
+              days: 'Tuesdays, Thursdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-231-60',
+              title: 'SolidWorks II',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-106 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-274-01',
+              title: '3D Animation using Maya',
+              days: 'Tuesdays, Thursdays',
+              times: 'Afternoons',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+          ]
+        },
+        {
+          name: 'Fall 2022 Proposed Schedule (Phase 0)',
+          id: '2022fa',
+          courses: [
+            {
+              class: 'CAD-220-60',
+              title: 'Introduction to CAD/CAM Systems',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-230-60',
+              title: 'Introduction to SolidWorks',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-106 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-223-60',
+              title: 'CAD Detailing and Dimensioning',
+              days: 'Tuesdays, Thursdays',
+              times: 'Evenings',
+              location: 'Room 38-106 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-273-01',
+              title: '3D Modeling Using Maya',
+              days: 'Mondays, Wednesdays',
+              times: 'Mornings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
           ]
         },
       ],
