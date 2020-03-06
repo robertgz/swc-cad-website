@@ -813,7 +813,7 @@ export default {
           ]
         },
         {
-          name: 'Fall 2020 Proposed Schedule',
+          name: 'Fall 2020 Proposed Schedule (Final Proto)',
           id: '2020fa',
           courses: [
             { 
@@ -845,7 +845,41 @@ export default {
               location: 'Room 38-109 at Chula Vista campus',
             },
           ]
-        },        
+        },
+        {
+          name: 'Spring 2021 Proposed Schedule (Phase I Proto)',
+          id: '2021sp',
+          courses: [
+            { 
+              class: 'CAD-220-60',
+              title: 'Introduction to CAD/CAM Systems',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-222-60',
+              title: 'CAD Mechanical Design I',
+              days: 'Tuesdays, Thursdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },            
+            {
+              class: 'CAD-223-60',
+              title: 'CAD Detailing and Dimensioning',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-106 at Chula Vista campus',
+            },            
+            {
+              class: 'CAD-274-01',
+              title: '3D Animation using Maya',
+              days: 'Tuesdays, Thursdays',
+              times: 'Afternoons',
+              location: 'Room 38-109 at Chula Vista campus',
+            },            
+          ]
+        },
       ],
     }
   },
