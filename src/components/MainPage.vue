@@ -880,6 +880,12 @@ export default {
             },
           ]
         },
+        // {
+        //   name: 'Summer 2021 Proposed Schedule (Phase 0)',
+        //   id: '2021su',
+        //   courses: [
+        //   ]
+        // },
         {
           name: 'Fall 2021 Proposed Schedule (Phase 0)',
           id: '2021fa',
@@ -914,7 +920,6 @@ export default {
             },
           ]
         },
-
         {
           name: 'Spring 2022 Proposed Schedule (Phase 0)',
           id: '2022sp',
@@ -949,6 +954,12 @@ export default {
             },
           ]
         },
+        // {
+        //   name: 'Summer 2022 Proposed Schedule (Phase 0)',
+        //   id: '2022su',
+        //   courses: [
+        //   ]
+        // },
         {
           name: 'Fall 2022 Proposed Schedule (Phase 0)',
           id: '2022fa',
