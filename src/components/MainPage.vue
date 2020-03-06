@@ -880,6 +880,40 @@ export default {
             },            
           ]
         },
+        {
+          name: 'Fall 2021 Proposed Schedule (Phase 0)',
+          id: '2021fa',
+          courses: [
+            { 
+              class: 'CAD-220-60',
+              title: 'Introduction to CAD/CAM Systems',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            }, 
+            {
+              class: 'CAD-224-60',
+              title: 'CAD Mechanical Design II',
+              days: 'Tuesdays, Thursdays',
+              times: 'Evenings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },            
+            {
+              class: 'CAD-230-60',
+              title: 'Introduction to SolidWorks',
+              days: 'Mondays, Wednesdays',
+              times: 'Evenings',
+              location: 'Room 38-106 at Chula Vista campus',
+            },
+            {
+              class: 'CAD-273-01',
+              title: '3D Modeling Using Maya',
+              days: 'Mondays, Wednesdays',
+              times: 'Mornings',
+              location: 'Room 38-109 at Chula Vista campus',
+            },                   
+          ]
+        },
       ],
     }
   },
