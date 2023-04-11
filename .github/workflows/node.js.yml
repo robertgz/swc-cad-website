@@ -4,8 +4,7 @@
 name: Node.js CI
 
 on:
-  pull_request:
-    types: [ closed ]
+  push:
     branches: [ "release/pages" ]
 
   workflow_dispatch:
