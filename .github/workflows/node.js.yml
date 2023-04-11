@@ -4,13 +4,15 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "release/pages" ]
   pull_request:
     types: [ closed ]
     branches: [ "release/pages" ]
 
   workflow_dispatch:
+
+concurrency: 
+  group: deployment
+  cancel-in-progress: true
 
 jobs:
   build:
