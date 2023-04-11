@@ -37,10 +37,10 @@
 
     <div class="container" id="top">
       <div class="row cad-top-banner">
-        <img src="https://dept.swccd.edu/cad/images/header-background-400.png" class="img-responsive center-block" srcset="https://dept.swccd.edu/cad/images/header-background-400.png 400w,
-                    https://dept.swccd.edu/cad/images/header-background-800.png 800w,
-                    https://dept.swccd.edu/cad/images/header-background-1200.png 1200w,
-                    https://dept.swccd.edu/cad/images/header-background-1700.png 1700w" alt="Rendering of four machine parts designed in computer aided design software.">
+        <img src="@/assets/images//header-background-400.png" class="img-responsive center-block" srcset="@/assets/images/header-background-400.png 400w,
+                    @/assets/images/header-background-800.png 800w,
+                    @/assets/images/header-background-1200.png 1200w,
+                    @/assets/images/header-background-1700.png 1700w" alt="Rendering of four machine parts designed in computer aided design software.">
       </div>
 
       <div class="row text-center cad-learn-topics-row">
@@ -100,10 +100,10 @@
         </div>
 
         <div class="col-md-6 course-image">
-          <img src="https://dept.swccd.edu/cad/images/toe-stop-details-300.png" class="img-responsive center-block" srcset="https://dept.swccd.edu/cad/images/toe-stop-details-300.png 300w,
-                      https://dept.swccd.edu/cad/images/toe-stop-details-600.png 600w,
-                      https://dept.swccd.edu/cad/images/toe-stop-details-900.png 900w,
-                      https://dept.swccd.edu/cad/images/toe-stop-details-1200.png 1200w" alt="Multi view dimensioned drawing of two parts drawn using AutoCAD software.">
+          <img src="@/assets/images/toe-stop-details-300.png" class="img-responsive center-block" srcset="@/assets/images/toe-stop-details-300.png 300w,
+                      @/assets/images/toe-stop-details-600.png 600w,
+                      @/assets/images/toe-stop-details-900.png 900w,
+                      @/assets/images/toe-stop-details-1200.png 1200w" alt="Multi view dimensioned drawing of two parts drawn using AutoCAD software.">
         </div>
       </div>
 
@@ -126,10 +126,10 @@
         </div>
 
         <div class="col-md-6 course-image">
-          <img src="https://dept.swccd.edu/cad/images/u-bracket-300.png" class="img-responsive center-block" srcset="https://dept.swccd.edu/cad/images/u-bracket-300.png 300w,
-                    https://dept.swccd.edu/cad/images/u-bracket-600.png 600w,
-                      https://dept.swccd.edu/cad/images/u-bracket-900.png 900w,
-                      https://dept.swccd.edu/cad/images/u-bracket-1200.png 1200w" alt="Top, front and shaded view drawing of a machine part designed in 3D using Autodesk Inventor.">
+          <img src="@/assets/images/u-bracket-300.png" class="img-responsive center-block" srcset="@/assets/images/u-bracket-300.png 300w,
+                    @/assets/images/u-bracket-600.png 600w,
+                      @/assets/images/u-bracket-900.png 900w,
+                      @/assets/images/u-bracket-1200.png 1200w" alt="Top, front and shaded view drawing of a machine part designed in 3D using Autodesk Inventor.">
         </div>
       </div>
 
@@ -154,11 +154,11 @@
         </div>
 
         <div class="col-md-6 course-image">
-          <img src="https://dept.swccd.edu/cad/images/crank-case-top-300.png" class="img-responsive center-block" srcset="https://dept.swccd.edu/cad/images/crank-case-top-300.png 300w,
-                      https://dept.swccd.edu/cad/images/crank-case-top-600.png 600w,
-                      https://dept.swccd.edu/cad/images/crank-case-top-900.png 900w,
-                      https://dept.swccd.edu/cad/images/crank-case-top-1200.png 1200w,
-                      https://dept.swccd.edu/cad/images/crank-case-top-1500.png 1500w" alt="Shaded view of a part with a section removed modeled in 3D using SolidWorks.">
+          <img src="@/assets/images/crank-case-top-300.png" class="img-responsive center-block" srcset="@/assets/images/crank-case-top-300.png 300w,
+                      @/assets/images/crank-case-top-600.png 600w,
+                      @/assets/images/crank-case-top-900.png 900w,
+                      @/assets/images/crank-case-top-1200.png 1200w,
+                      @/assets/images/crank-case-top-1500.png 1500w" alt="Shaded view of a part with a section removed modeled in 3D using SolidWorks.">
         </div>
       </div>
 
@@ -182,10 +182,10 @@
         </div>
 
         <div class="col-md-6 course-image">
-          <img src="https://dept.swccd.edu/cad/images/hub-drawing-300.png" class="img-responsive center-block" srcset="https://dept.swccd.edu/cad/images/hub-drawing-300.png 300w,
-                      https://dept.swccd.edu/cad/images/hub-drawing-600.png 600w,
-                      https://dept.swccd.edu/cad/images/hub-drawing-900.png 900w,
-                      https://dept.swccd.edu/cad/images/hub-drawing-1200.png 1200w" alt="Dimensioned drawing of machine part.">
+          <img src="@/assets/images/hub-drawing-300.png" class="img-responsive center-block" srcset="@/assets/images/hub-drawing-300.png 300w,
+                      @/assets/images/hub-drawing-600.png 600w,
+                      @/assets/images/hub-drawing-900.png 900w,
+                      @/assets/images/hub-drawing-1200.png 1200w" alt="Dimensioned drawing of machine part.">
         </div>
       </div>
 
@@ -209,9 +209,9 @@
         </div>
 
         <div class="col-md-6 course-image">
-          <img src="https://dept.swccd.edu/cad/images/omni-launcher-300.png" class="img-responsive center-block" srcset="https://dept.swccd.edu/cad/images/omni-launcher-300.png 300w,
-                      https://dept.swccd.edu/cad/images/omni-launcher-600.png 600w,
-                      https://dept.swccd.edu/cad/images/omni-launcher-900.png 900w" alt="Rendering of a project designed by a student in CAD 224 using SolidWorks.">
+          <img src="@/assets/images/omni-launcher-300.png" class="img-responsive center-block" srcset="@/assets/images/omni-launcher-300.png 300w,
+                      @/assets/images/omni-launcher-600.png 600w,
+                      @/assets/images/omni-launcher-900.png 900w" alt="Rendering of a project designed by a student in CAD 224 using SolidWorks.">
         </div>
       </div>
 
@@ -530,11 +530,11 @@
       <div class="row swc-jaguar-image">
         <div class="col-xs-offset-1 col-xs-4">
           <a href="http://www.swccd.edu/">
-            <img class="img-responsive center-block" alt="Responsive image" src="https://dept.swccd.edu/cad/images/swc_logo.png">
+            <img class="img-responsive center-block" alt="Responsive image" src="@/assets/images/swc_logo.png">
           </a>
         </div>
         <div class="col-xs-offset-1 col-xs-4 ">
-          <img class="img-responsive center-block" alt="Responsive image" src="https://dept.swccd.edu/cad/images/swc-jaguar-logo.png">
+          <img class="img-responsive center-block" alt="Responsive image" src="@/assets/images/swc-jaguar-logo.png">
         </div>
       </div>
     </div>
