@@ -7,6 +7,7 @@ on:
   push:
     branches: [ "release/pages" ]
   pull_request:
+    types: [ closed ]
     branches: [ "release/pages" ]
 
   workflow_dispatch:
@@ -43,4 +44,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
